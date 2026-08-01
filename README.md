@@ -17,7 +17,7 @@ A Simple Script to upload Files to https://gofile.io via Terminal (CLI). Written
 
 ## Configuration
 
-Create a `.env` file in the project root and add your Telegram credentials.
+Create a `.env` file in the same directory as `upload.sh` and add your Telegram credentials.
 
 ### .env Template
 
