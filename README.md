@@ -58,22 +58,24 @@ Or if you're already in the same directory as the files:
 
 ## Telegram Output
 
-```text
-✅ Upload Complete
-
-📁 filename.zip
-📦 2.8 GB
-```
-
-The filename is sent as a clickable download link.
-
+> ✅ Upload Complete
+>
+> 📁 filename.zip *(clickable download link)*
+>
+> 📦 2.8 GB
 ## Terminal Output
 
-The script prints:
-
-- Upload progress
-- GoFile download link
-- Telegram status (if configured)
+> 📁 filename.zip
+>
+> 📦 2.8 GB
+>
+> ⬆️ Uploading to GoFile...
+>
+> ✅ Upload Complete!
+>
+> 🔗 https://gofile.io/d/XXXXXXXX
+>
+> 📨 Telegram notification sent. **or** ℹ️ Telegram not configured. Skipping notification.
 
 ## Credits
 
