@@ -1,0 +1,75 @@
+# GoFile Uploader
+
+A Simple Script to upload Files to https://gofile.io via Terminal (CLI). Written in Bash.
+
+## Features
+
+- Upload files using the official GoFile API
+- Single and multiple file uploads
+- Fast servers with no file size limits
+- Optional Telegram notifications
+- Environment-based configuration (.env)
+
+## Requirements
+
+- `curl`
+- `jq`
+
+## Configuration
+
+Create a `.env` file in the project root and add your Telegram credentials.
+
+### .env Template
+
+```env
+# Telegram (Optional)
+BOT_TOKEN=
+CHAT_ID=
+```
+
+> Leave `BOT_TOKEN` and `CHAT_ID` empty if you don't want Telegram notifications.
+
+## Usage
+
+Upload a single file:
+
+```bash
+./upload.sh path/to/file
+```
+
+Upload multiple files:
+
+```bash
+./upload.sh path/to/file1 path/to/file2
+```
+
+Or if you're already in the same directory as the files:
+
+```bash
+./upload.sh boot.img vendor_boot.img ROM.zip
+```
+
+## Telegram Output
+
+```text
+✅ Upload Complete
+
+📁 filename.zip
+📦 2.8 GB
+```
+
+The filename is sent as a clickable download link.
+
+## Terminal Output
+
+The script prints:
+
+- Upload progress
+- GoFile download link
+- Telegram status (if configured)
+
+## Credits
+
+- https://gofile.io — Official GoFile API
+- [Sushrut1101](https://github.com/Sushrut1101) — Original GoFile uploader script
+- [EternalMikaelson](https://github.com/EternalMikaelson) — Telegram integration and project improvements
