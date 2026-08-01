@@ -31,6 +31,13 @@ CHAT_ID=
 
 ## Usage
 
+Download the script:
+
+```bash
+wget -O upload.sh https://raw.githubusercontent.com/EternalMikaelson/gofile-uploader/refs/heads/main/upload.sh
+chmod +x upload.sh
+```
+
 Upload a single file:
 
 ```bash
