@@ -79,6 +79,6 @@ Or if you're already in the same directory as the files:
 
 ## Credits
 
-- https://gofile.io — Official GoFile API
-- [Sushrut1101](https://github.com/Sushrut1101) — Original GoFile uploader script
-- [EternalMikaelson](https://github.com/EternalMikaelson) — Telegram integration and project improvements
+- [GoFile](https://gofile.io) — Official API
+- [Sushrut1101](https://github.com/Sushrut1101) — Original author of this script
+- [Klaus Mikaelson](https://github.com/EternalMikaelson) — Telegram integration, project improvements, and documentation
